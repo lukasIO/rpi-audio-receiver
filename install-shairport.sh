@@ -21,7 +21,7 @@ general = {
 }
 
 alsa = {
-//  mixer_control_name = "Softvol";
+  output_device = "hw:1";
 }
 
 sessioncontrol = {
