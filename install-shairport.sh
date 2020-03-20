@@ -17,7 +17,7 @@ PRETTY_HOSTNAME=${PRETTY_HOSTNAME:-$(hostname)}
 
 cat <<EOF > "/etc/shairport-sync.conf"
 general = {
-  name = "${PRETTY_HOSTNAME}";
+  name = "Tongeber";
 }
 
 alsa = {
